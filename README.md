@@ -10,12 +10,6 @@
 
 ---
 
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Librosa](https://img.shields.io/badge/Librosa-000000?style=for-the-badge&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
----
-
 ## 📰 데이터 구성
 
 *Kaggle – Deepfake-dataset (140k+dataset real or fake)*    [데이터 링크](https://www.kaggle.com/datasets/tusharpadhy/deepfake-dataset)
@@ -82,7 +76,7 @@ EfficientNet-b7 기반 Teacher 모델의 최적 설정 결과
 |-------|------------|-------------|-----|----------|
 | EfficientNet-b7 | 96.87 | 96.81 | 204.13 | 65.1 |
 
-### Student 모델 성능 (ResNet8) 및 지식 증류 효과 [모델 코드](./student_KD)
+### Student 모델 성능 (ResNet8) 및 지식 증류 효과 [모델 코드](https://github.com/kimjiwoo0707/Lightweight-Deepfake-Detection-via-Knowledge-Distillation/blob/6f42fa36af42271fdccc12d009b8c0e38b27ab95/Student_KD.py)
 
 | 모델 | Accuracy(%) | F1-score(%) | FPS |
 |-------|------------|-------------|-----|
