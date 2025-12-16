@@ -59,7 +59,8 @@
 
 Teacher 모델의 **Soft label**과 Ground truth **Hard label**을 결합하여 Student 모델 학습  
 
-![지식 증류 구조](./kd_structure.png)
+<img width="742" height="486" alt="image" src="https://github.com/user-attachments/assets/abe7618c-9061-4fbb-b566-5ca81bdd9172" />
+
 
 ### 손실 함수
 L= α ∙ KL(T,S)+(1-α)  ∙ L_hard 
