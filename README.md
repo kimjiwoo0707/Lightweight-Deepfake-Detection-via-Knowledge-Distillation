@@ -73,7 +73,7 @@ L= α ∙ MSE(T,S)+(1-α)  ∙ L_hard
 
 ## 📰 모델 성능 평가
 
-### Teacher 모델 성능 [모델 코드][./teacher_model](https://github.com/kimjiwoo0707/Lightweight-Deepfake-Detection-via-Knowledge-Distillation/blob/6f42fa36af42271fdccc12d009b8c0e38b27ab95/Teacher_Model.py)
+### Teacher 모델 성능 [모델 코드](https://github.com/kimjiwoo0707/Lightweight-Deepfake-Detection-via-Knowledge-Distillation/blob/6f42fa36af42271fdccc12d009b8c0e38b27ab95/Teacher_Model.py)
 
 #### Teacher 모델 (최종 성능)  
 
