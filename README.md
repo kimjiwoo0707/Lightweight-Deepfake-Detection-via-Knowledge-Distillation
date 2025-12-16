@@ -84,7 +84,8 @@ L= α ∙ MSE(T,S)+(1-α)  ∙ L_hard
 | 32         | 0.0001        | -                | 0.5 | 92.74        | 92.51        |
 | 32         | 0.0001        | ReduceLROnPlateau | 0.4 | 93.92        | 93.85        |
 
-
+#### Teacher 모델 (최종 성능)  
+EfficientNet-b7 기반 Teacher 모델의 최적 설정 결과  
 | 모델 | Accuracy(%) | F1-score(%) | FPS | params(M) |
 |-------|------------|-------------|-----|----------|
 | EfficientNet-b7 | 96.87 | 96.81 | 204.13 | 65.1 |
