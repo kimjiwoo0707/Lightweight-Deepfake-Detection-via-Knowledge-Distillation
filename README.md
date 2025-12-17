@@ -117,6 +117,12 @@ KL Divergence 기반 KD 결과는 상기 하이퍼파라미터 탐색에서 도�
 - 본 연구에서 사용한 딥페이크 데이터셋은 단일 방식으로 생성된 이미지로 구성됨, 따라서 다른 방식이나 새로운 딥페이크 생성 기법으로 제작된 데이터에서는 모델 성능이 떨어질 가능성이 있음  
 - 향후 연구에서는 다양한 생성 기법과 출처의 데이터로 모델 일반화 능력을 평가할 필요가 있음
 
+---
+
+## [Paper]
+
+<img width="487" height="691" alt="image" src="https://github.com/user-attachments/assets/2d7b0e0a-5dfe-451b-bfd3-d93d0a7834e3" /><img width="483" height="690" alt="image" src="https://github.com/user-attachments/assets/5f832772-eb82-42c4-9869-6c0a2cb17305" />
+
 
 ---
 
