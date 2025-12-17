@@ -91,7 +91,7 @@ def fit_model(model, train_loader, val_loader, cfg):
             targets = targets.to(device).float()
 
             optimizer.zero_grad()
-            outputs = model(inputs).squeeze(1)  # (B,)
+            outputs = model(inputs).squeeze(1)
             loss = criterion(outputs, targets)
             loss.backward()
             optimizer.step()
