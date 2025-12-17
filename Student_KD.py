@@ -263,8 +263,8 @@ def evaluate(student, dataloader):
         inputs = inputs.to(device, non_blocking=True)
         targets = targets.to(device, non_blocking=True).float()
 
-        logits = student(inputs).squeeze(1)         # (B,)
-        probs = torch.sigmoid(logits)               # (B,)
+        logits = student(inputs).squeeze(1)
+        probs = torch.sigmoid(logits)
         preds = (probs > 0.5).float()
 
         all_targets.extend(targets.detach().cpu().numpy().tolist())
